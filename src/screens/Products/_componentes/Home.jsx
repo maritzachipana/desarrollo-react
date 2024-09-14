@@ -17,7 +17,7 @@ const Home = () => {
                 { category: "Vegetables", price: "$1", stocked: true, name: "Peas" }
             ])
         )
-    }, []);
+    }, [dispatch]);
 
     return (
         <>
